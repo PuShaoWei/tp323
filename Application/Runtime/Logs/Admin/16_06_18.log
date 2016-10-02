@@ -1,0 +1,33 @@
+[ 2016-06-18T11:04:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxGetAttr/tid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tzl_admin` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tzl_admin_role` [ RunTime:0.0050s ]
+SQL: SELECT DISTINCT a.admin_id,c.c_name,c.m_name,c.a_name FROM tzl_admin_role a LEFT JOIN  tzl_role_pri b ON a.role_id=b.role_id LEFT JOIN tzl_privilege c ON  b.pri_id=c.id   WHERE `admin_id` = '1' AND `c_name` <> '' AND `id` is not null   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tzl_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tzl_attribute` WHERE ( type_id=1 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-18T11:13:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+ERR: 1146:Table 'tzlshop_2.tzl_goods_numuber' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tzl_goods_numuber`
+
+[ 2016-06-18T11:13:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+ERR: 1054:Unknown column 'goods_num' in 'field list'
+ [ SQL语句 ] : SELECT sum(goods_num) FROM `tzl_goods_number` WHERE ( goods_id=3 ) 
+
+[ 2016-06-18T11:24:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst.html
+ERR: Think\Model:gropu方法不存在！
+
+[ 2016-06-18T17:19:53+08:00 ] 127.0.0.1 /index.php/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2016-06-18T17:19:53+08:00 ] 127.0.0.1 /index.php/Admin/main.html
+ERR: 无法加载控制器:Main
+
+[ 2016-06-18T17:19:53+08:00 ] 127.0.0.1 /index.php/Admin/menu.html
+ERR: 无法加载控制器:Menu
+

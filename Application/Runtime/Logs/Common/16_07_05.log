@@ -1,0 +1,9 @@
+[ 2016-07-05T09:06:16+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2016-07-05T09:08:08+08:00 ] 127.0.0.1 /Public/Front/images/zoomloader.gif
+ERR: 无法加载模块:Public
+
+[ 2016-07-05T13:33:26+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+

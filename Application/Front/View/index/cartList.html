@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>购物车页面</title>
+	<link rel="stylesheet" href="__PUBLIC__/Front/style/base.css" type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/Front/style/global.css" type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/Front/style/header.css" type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/Front/style/cart.css" type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/Front/style/footer.css" type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/Front/style/index.css" type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/Front/style/bottomnav.css" type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/Front/style/footer.css" type="text/css">
+	<script type="text/javascript" src="__PUBLIC__/Front/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Front/js/cart1.js"></script>
+	
+</head>
+<body>
+	<!-- 顶部导航 start -->
+<include file="Common/_header" />
+	<!-- 顶部导航 end -->
+	<div style="clear:both;"></div>
+	
+	<!-- 页面头部 start -->
+	<div class="header w990 bc mt15">
+		<div class="logo w990">
+			<h2 class="fl"><a href="<?=U('index')?>"><img src="__PUBLIC__/Front/images/logo.png" alt="京西商城"></a></h2>
+			<div class="flow fr">
+				<ul>
+					<li class="cur">1.我的购物车</li>
+					<li>2.填写核对订单信息</li>
+					<li>3.成功提交订单</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 页面头部 end -->
+	
+	<div style="clear:both;"></div>
+
+	<!-- 主体部分 start -->
+	<div class="mycart w990 mt10 bc">
+	<?php if(empty($_SESSION['front']['id'])):?>
+	<p style="padding: 20px;font-size: 15px;border:1px solid red;">您还没有登录，赶紧登录享受更多特权吧</p>
+	<?php endif;?>
+		<h2><span>我的购物车</span></h2>
+		<table>
+			<thead>
+				<tr>
+					<th class="col1">商品名称</th>
+					<th class="col2">商品信息</th>
+					<th class="col3">单价</th>
+					<th class="col4">数量</th>	
+					<th class="col5">小计</th>
+					<th class="col6">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+			<?php
+				$priceNum=0; 
+				foreach($cartData as $k=>$v):?>
+				<tr>
+					<td class="col1"><a href=""><img src="<?=IMG.$v['info']['sm_logo'];?>" alt="" /></a>  <strong><a href="<?=U('goods?id='.$v['goods_id'])?>">
+						<?=$v['info']['goods_name']?>
+					</a></strong></td>
+					<td class="col2"> 
+					<?php foreach($v['attr'] as $k1=>$v1):?>					
+					<p><?=$v1['attr_name']?>：<?=$v1['attr_value']?></p>
+					<?php endforeach;?>
+					</td>					
+					<td class="col3">￥<span><?=$v['price']?></span></td>
+					<td class="col4"> 
+						<a href="javascript:;" class="reduce_num"></a>
+						<input type="text" name="amount" value="<?=$v['goods_number']?>" class="amount"/>
+						<a href="javascript:;" class="add_num"></a>
+					</td>				
+					<td class="col5">￥<span><?=$v['price']*$v['goods_number']?></span></td>
+					
+					<?php $v['delete']=empty(!$_SESSION)?"<?=U('cartDelete?id='.$v[goods_attr_id])?>":"$v[goods_id]-$v[goods_attr_id];";?>
+					
+					<td class="col6"><a id="delete[<?=$k;?>]" href="javascript:delete(<?=$k;?>);">删除</a></td>
+				</tr>
+				<?php $priceNum+=$v['price']*$v['goods_number'];?>
+			<?php endforeach;?>	
+			</tbody>
+			<tfoot>								
+				<tr>
+					<td colspan="6">购物金额总计： <strong>￥ <span id="total"><?=$priceNum;?></span></strong></td>
+				</tr>
+			</tfoot>
+		</table>
+		<div class="cart_btn w990 bc mt10">
+			<a href="<?=U('orderInfo')?>" class="checkout">结 算</a>
+		</div>
+	</div>
+	<!-- 主体部分 end -->
+	<div style="clear:both;"></div>
+	<include file="Common:_help" />
+	<include file="Common:_footer" />
+<script type="text/javascript">
+
+	$('#delete[data]').click(function()
+		{
+			console.log('1');
+			var td=$('#delete[data]').parent;				
+		});
+
+
+</script>

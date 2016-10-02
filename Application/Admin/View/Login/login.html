@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>特战旅后台登录</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="__PUBLIC__/Admin/Styles/login2.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>特战旅商城后台登录<sup>2016</sup></h1>
+
+<div class="login" style="margin-top:50px;">
+    
+    <div class="header">
+        <div class="switch" id="switch"><a class="switch_btn_focus" id="switch_qlogin" href="javascript:void(0);" tabindex="7">后台登录</a>
+        </div>
+    </div>    
+  
+    
+    <div class="web_qr_login" id="web_qr_login" style="display: block;">    
+
+            <!--登录-->
+            <div class="web_login" id="web_login">
+               <div class="login-box">
+      <div class="login_form">
+        <form name="loginform" accept-charset="utf-8" id="login_form" class="loginForm" method="post">
+                <div class="uinArea" id="uinArea">
+                    <label class="input-tips" for="u" style="width:70px;">帐　号：</label>
+                    <div class="inputOuter" id="uArea">
+                        
+                        <input type="text" id="u" name="account" class="inputstyle"/>
+                    </div>
+                </div>
+                <div class="pwdArea" id="pwdArea">
+                    <label class="input-tips" for="p" style="width:70px;">密　码：</label> 
+                    <div class="inputOuter" id="pArea">
+                        
+                        <input type="password" id="p" name="password" class="inputstyle"/>
+                    </div>
+                </div>
+                <div class="pwdArea" id="pwdArea">
+                    <label class="input-tips" for="captcha" style="width:70px;">验证码：</label> 
+                    <div class="inputOuter">
+                        <input style="width:80px;" id="captcha"  name="captcha" class="inputstyle"/>
+                    </div>
+                </div>
+                <img style="cursor: pointer; " onclick="this.src='<?=U('Login/captcha')?>?'+Math.random();" src="<?=U('Login/captcha')?>">
+               
+                <div style="padding-left:50px;margin-top:20px;"><input type="submit" value="登 录" style="width:150px;" class="button_blue"/></div>
+              </form>
+           </div>
+           
+              </div>
+               
+            </div>
+            <!--登录end-->
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,313 @@
+[ 2016-06-14T10:37:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxGetAttr/tid/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tzl_admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `tzl_admin_role` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT a.admin_id,c.c_name,c.m_name,c.a_name FROM tzl_admin_role a LEFT JOIN  tzl_role_pri b ON a.role_id=b.role_id LEFT JOIN tzl_privilege c ON  b.pri_id=c.id   WHERE `admin_id` = '1' AND `c_name` <> '' AND `id` is not null   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tzl_attribute` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tzl_attribute` WHERE ( type_id=3 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T10:37:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxGetAttr/tid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tzl_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tzl_admin_role` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT a.admin_id,c.c_name,c.m_name,c.a_name FROM tzl_admin_role a LEFT JOIN  tzl_role_pri b ON a.role_id=b.role_id LEFT JOIN tzl_privilege c ON  b.pri_id=c.id   WHERE `admin_id` = '1' AND `c_name` <> '' AND `id` is not null   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tzl_attribute` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tzl_attribute` WHERE ( type_id=1 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T10:37:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxGetAttr/tid/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tzl_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tzl_admin_role` [ RunTime:0.0020s ]
+SQL: SELECT DISTINCT a.admin_id,c.c_name,c.m_name,c.a_name FROM tzl_admin_role a LEFT JOIN  tzl_role_pri b ON a.role_id=b.role_id LEFT JOIN tzl_privilege c ON  b.pri_id=c.id   WHERE `admin_id` = '1' AND `c_name` <> '' AND `id` is not null   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tzl_attribute` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tzl_attribute` WHERE ( type_id=0 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T10:37:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxGetAttr/tid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tzl_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tzl_admin_role` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT a.admin_id,c.c_name,c.m_name,c.a_name FROM tzl_admin_role a LEFT JOIN  tzl_role_pri b ON a.role_id=b.role_id LEFT JOIN tzl_privilege c ON  b.pri_id=c.id   WHERE `admin_id` = '1' AND `c_name` <> '' AND `id` is not null   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tzl_attribute` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tzl_attribute` WHERE ( type_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T10:37:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxGetAttr/tid/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tzl_admin` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tzl_admin_role` [ RunTime:0.0040s ]
+SQL: SELECT DISTINCT a.admin_id,c.c_name,c.m_name,c.a_name FROM tzl_admin_role a LEFT JOIN  tzl_role_pri b ON a.role_id=b.role_id LEFT JOIN tzl_privilege c ON  b.pri_id=c.id   WHERE `admin_id` = '1' AND `c_name` <> '' AND `id` is not null   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tzl_attribute` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tzl_attribute` WHERE ( type_id=3 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T10:37:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxGetAttr/tid/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tzl_admin` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tzl_admin_role` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT a.admin_id,c.c_name,c.m_name,c.a_name FROM tzl_admin_role a LEFT JOIN  tzl_role_pri b ON a.role_id=b.role_id LEFT JOIN tzl_privilege c ON  b.pri_id=c.id   WHERE `admin_id` = '1' AND `c_name` <> '' AND `id` is not null   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tzl_attribute` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tzl_attribute` WHERE ( type_id=4 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T10:47:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxGetAttr/tid/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tzl_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tzl_admin_role` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT a.admin_id,c.c_name,c.m_name,c.a_name FROM tzl_admin_role a LEFT JOIN  tzl_role_pri b ON a.role_id=b.role_id LEFT JOIN tzl_privilege c ON  b.pri_id=c.id   WHERE `admin_id` = '1' AND `c_name` <> '' AND `id` is not null   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tzl_attribute` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tzl_attribute` WHERE ( type_id=4 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T10:49:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxGetAttr/tid/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tzl_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tzl_admin_role` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT a.admin_id,c.c_name,c.m_name,c.a_name FROM tzl_admin_role a LEFT JOIN  tzl_role_pri b ON a.role_id=b.role_id LEFT JOIN tzl_privilege c ON  b.pri_id=c.id   WHERE `admin_id` = '1' AND `c_name` <> '' AND `id` is not null   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tzl_attribute` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tzl_attribute` WHERE ( type_id=4 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-06-14T10:54:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1146:Table 'tzlshop_2.tzl_goods_arrt' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tzl_goods_arrt`
+
+[ 2016-06-14T11:00:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column 'b.attr_name' in 'field list'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN tzl_attribute ON a.attr_id=b.id  WHERE ( goods_id=2 ) 
+
+[ 2016-06-14T11:01:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1146:Table 'tzlshop_2.b' doesn't exist
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN b tzl_attribute ON a.attr_id=b.id  WHERE ( goods_id=2 ) 
+
+[ 2016-06-14T11:01:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1146:Table 'tzlshop_2.b' doesn't exist
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN b tzl_attribute ON a.attr_id=b.id  WHERE ( goods_id=2 ) 
+
+[ 2016-06-14T11:01:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1146:Table 'tzlshop_2.b' doesn't exist
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN b tzl_attribute ON a.attr_id=b.id  WHERE ( a.goods_id=2 ) 
+
+[ 2016-06-14T11:01:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1146:Table 'tzlshop_2.b' doesn't exist
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN b tzl_attribute ON a.attr_id=b.id  WHERE ( a.goods_id=2 ) 
+
+[ 2016-06-14T11:01:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1146:Table 'tzlshop_2.b' doesn't exist
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN b tzl_attribute ON a.attr_id=b.id  WHERE ( a.goods_id=2 ) 
+
+[ 2016-06-14T11:06:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '$s' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 and b.type_id=$s ) 
+
+[ 2016-06-14T11:06:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 and b.type_id=可选 ) 
+
+[ 2016-06-14T11:06:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 and b.type_id=可选 ) 
+
+[ 2016-06-14T11:06:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.type_id=可选 ) 
+
+[ 2016-06-14T11:07:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.type_id=可选 ) 
+
+[ 2016-06-14T11:07:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.type_id=可选 ) 
+
+[ 2016-06-14T11:07:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.type_id=可选 ) 
+
+[ 2016-06-14T11:08:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.type_id=可选 ) 
+
+[ 2016-06-14T11:08:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.type_id=可选 ) 
+
+[ 2016-06-14T11:08:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.type_id=可选 ) 
+
+[ 2016-06-14T11:08:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.type_id=可选 ) 
+
+[ 2016-06-14T11:09:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:09:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:10:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%可选% )' at line 1
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=%可选% ) 
+
+[ 2016-06-14T11:10:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%可选% )' at line 1
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=%可选% ) 
+
+[ 2016-06-14T11:10:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:11:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:11:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '唯一' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=唯一 ) 
+
+[ 2016-06-14T11:12:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:12:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE (  b.attr_type=可选 ) 
+
+[ 2016-06-14T11:12:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE (  b.attr_type=可选 ) 
+
+[ 2016-06-14T11:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:14:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:14:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:15:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'可选\' )' at line 1
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=\'可选\' ) 
+
+[ 2016-06-14T11:15:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'可选\' )' at line 1
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=\'可选\' ) 
+
+[ 2016-06-14T11:15:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:16:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:16:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:16:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(可选) )' at line 1
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=string(可选) ) 
+
+[ 2016-06-14T11:17:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:17:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:17:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} )' at line 1
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type={可选} ) 
+
+[ 2016-06-14T11:18:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1054:Unknown column '可选' in 'where clause'
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=可选 ) 
+
+[ 2016-06-14T11:18:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goods_number/id/2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'可选\' )' at line 1
+ [ SQL语句 ] : SELECT a.*,b.attr_name,b.attr_type FROM tzl_goods_attr a LEFT JOIN  tzl_attribute  b ON a.attr_id=b.id  WHERE ( a.goods_id=2 AND b.attr_type=\'可选\' ) 
+
+[ 2016-06-14T16:00:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxGetAttr/tid/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tzl_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tzl_admin_role` [ RunTime:0.0030s ]
+SQL: SELECT DISTINCT a.admin_id,c.c_name,c.m_name,c.a_name FROM tzl_admin_role a LEFT JOIN  tzl_role_pri b ON a.role_id=b.role_id LEFT JOIN tzl_privilege c ON  b.pri_id=c.id   WHERE `admin_id` = '1' AND `c_name` <> '' AND `id` is not null   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tzl_attribute` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tzl_attribute` WHERE ( type_id=4 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-06-14T16:00:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxGetAttr/tid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tzl_admin` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `tzl_admin_role` [ RunTime:0.0050s ]
+SQL: SELECT DISTINCT a.admin_id,c.c_name,c.m_name,c.a_name FROM tzl_admin_role a LEFT JOIN  tzl_role_pri b ON a.role_id=b.role_id LEFT JOIN tzl_privilege c ON  b.pri_id=c.id   WHERE `admin_id` = '1' AND `c_name` <> '' AND `id` is not null   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tzl_attribute` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tzl_attribute` WHERE ( type_id=1 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-06-14T16:45:20+08:00 ] 127.0.0.1 /index.php/Admin/Type/index.php/Admin/Goods/lst.html
+ERR: 非法操作:index.php
+
+[ 2016-06-14T16:45:54+08:00 ] 127.0.0.1 /index.php/Admin/Type/index.index
+ERR: 非法操作:index.index
+
+[ 2016-06-14T16:46:25+08:00 ] 127.0.0.1 /index.php/Admin/Brand/__app__/module_namemodule_pathinfo_deprc_o_n_t_r_o_l_l_e_r__n_a_m_e/lst.html
+ERR: 非法操作:__app__
+
+[ 2016-06-14T16:50:21+08:00 ] 127.0.0.1 /index.php/Admin/Category/href='index.php'
+ERR: 非法操作:href='index.php'
+
+[ 2016-06-14T16:50:33+08:00 ] 127.0.0.1 /index.php/Admin/Category/href='index.php'
+ERR: 非法操作:href='index.php'
+
